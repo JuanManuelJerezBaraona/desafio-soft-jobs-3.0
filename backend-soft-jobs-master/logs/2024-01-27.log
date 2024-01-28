@@ -1,0 +1,16 @@
+
+Started POST /usuarios for :: ::1 at Sat Jan 27 2024 16:15:33 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"email":"pirulandia@test.com","password":"123456","rol":"Full Stack Developer","lenguage":"JavaScript"}
+Completed: 201 message:  Time response: 159 ms Request ID: [aa894ff4-8999-46b7-9f42-d95b6e66add8]
+
+Started POST /login for :: ::1 at Sat Jan 27 2024 16:15:38 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {"email":"pirulandia@test.com","password":"123456"}
+Completed: 200 message:  Time response: 97 ms Request ID: [1504a62c-c97e-41e5-b03c-5c2d6f1c67d7]
+
+Started GET /usuarios for :: ::1 at Sat Jan 27 2024 16:15:39 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 200 message:  Time response: 10 ms Request ID: [ef6b66ba-2438-4eea-9a46-15d24b4a76c0]
+
+Started GET /usuarios for :: ::1 at Sat Jan 27 2024 16:15:39 GMT-0300 (hora de verano de Chile)
+  Parameters in body: {}
+Completed: 304 message:  Time response: 5 ms Request ID: [3bf4b8ec-b204-47af-b1bf-2eca9c6553f0]
