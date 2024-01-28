@@ -4,6 +4,8 @@ import byEmail from "../models/login.model.js";
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 
+import "dotenv/config";
+
 const loginUser = async (req, res) => {
     try {
         const { email, password } = req.body
